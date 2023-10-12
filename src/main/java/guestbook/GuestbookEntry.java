@@ -52,7 +52,7 @@ class GuestbookEntry {
 		this.name = name;
 		this.text = text;
 		this.date = LocalDateTime.now();
-		this.likes = 0;
+		this.likes = 100;
 	}
 
 	@SuppressWarnings("unused")
@@ -76,5 +76,9 @@ class GuestbookEntry {
 
 	public String getText() {
 		return text;
+	}
+
+	public int getLikes() {
+		return likes;
 	}
 }
