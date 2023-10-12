@@ -61,6 +61,7 @@ public class Application {
 
 			Stream.of( //
 					new GuestbookEntry("H4xx0r", "first!!!"), //
+					new GuestbookEntry("Justus", "second!!!"), //
 					new GuestbookEntry("Arni", "Hasta la vista, baby"), //
 					new GuestbookEntry("Duke Nukem",
 							"It's time to kick ass and chew bubble gum. And I'm all out of gum."), //
