@@ -5,14 +5,18 @@ div#entries, #form {
 
 .card {
 	margin-bottom: 2em;
+	box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+	border-color: #6c757d;
 }
 
 .card-title {
 	margin-bottom: 0;
+	color: white;
 }
 
 .date {
 	font-size: 0.8em;
+	padding-bottom: 5px;
 }
 
 blockquote {
@@ -24,6 +28,29 @@ form#form {
 }
 
 .text-center{
+	color: black;
+	font-size: 4em;
+	padding: 0.3em;
+}
+
+.text-center-small{
+	text-align: center;
 	color: blue;
-	font-size: 2em;
+	font-size: 1em;
+}
+
+.card-header{
+	background-color: #6c757d;
+}
+
+.card-footer{
+	background-color: white;
+}
+
+.card-body{
+	background-color: white;
+}
+
+.button {
+	border-radius: 5px;
 }

@@ -81,4 +81,10 @@ class GuestbookEntry {
 	public int getLikes() {
 		return likes;
 	}
+
+	public int giveALike() {
+		this.likes++;
+		System.out.println("Likes: " + likes);
+		return likes;
+	}
 }
